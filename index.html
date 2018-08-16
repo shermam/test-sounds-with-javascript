@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible"
+              content="ie=edge">
+        <title>Sons</title>
+        <link rel="stylesheet"
+              href="main.css">
+    </head>
+
+    <body>
+
+        <div class="notes"></div>
+
+        <p onclick="playAll()">Play all</p>
+
+        <button onclick="makeComposition()">Make composition</button>
+        <button onclick="playComposition()">Play composition</button>
+        <button onclick="stopComposition()">Stop composition</button>
+
+        <input type="number"
+               class="velocity"
+               placeholder="velocity"
+               value="4">
+
+        <br>
+        <br>
+
+        <input type="number"
+               id="index"
+               placeholder="index"
+               value="1">
+
+        <button onclick="playStoredComposition()">Play Stored Composition</button>
+        <button onclick="loadStoredComposition()">Load Stored Composition</button>
+        <button onclick="limpar()">limpar</button>
+
+        <script src="main.js"></script>
+    </body>
+
+
+</html>

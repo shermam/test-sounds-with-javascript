@@ -1,0 +1,19 @@
+.notes{
+    display: flex;
+    flex-direction: row;
+}
+
+.times{
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin: 0;
+    height: 20px;
+}
+
+input[type="checkbox"]{
+    margin: 0;
+    height: 20px;
+}
